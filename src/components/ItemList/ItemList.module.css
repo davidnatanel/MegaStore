@@ -1,0 +1,318 @@
+.container {
+    width: 100%;
+    height: 70px;
+    border: 0.05px solid rgb(240, 232, 232);
+    display: flex;
+}
+
+.Img img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.Img {
+
+    height: 100%;
+    width: 40%;
+}
+
+.detail {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.count {
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.count input {
+    width: 20%;
+    height: 100%;
+    text-align: center;
+
+
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+    color: gray;
+    outline: none;
+    border: none;
+    border: rgb(197, 191, 191) 1px solid;
+
+    color: black;
+    background-color: rgb(248, 247, 247);
+
+}
+
+.count span {
+    color: rgb(49, 45, 45);
+    font-weight: 700;
+    font-family: Helvetica;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: gainsboro;
+    height: 100%;
+    width: 20%;
+
+
+    border: none;
+
+
+    border: rgb(197, 191, 191) 1px solid;
+
+}
+
+
+
+.red {
+    background-color: gainsboro;
+
+    height: 100%;
+    width: 20%;
+
+
+    border: rgb(197, 191, 191) 1px solid;
+
+
+
+}
+
+
+
+.title {
+    height: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    gap: 5px;
+
+}
+
+
+
+.title svg {
+    color: rgb(59, 55, 55);
+    width: 20%;
+    height: 40%;
+
+
+
+
+}
+
+
+.green:hover {
+    cursor: pointer;
+}
+
+
+.red:hover {
+    cursor: pointer;
+
+}
+
+
+.title svg:hover {
+    cursor: pointer;
+
+}
+
+
+
+
+
+.green:active {
+    background-color: rgb(139, 190, 139);
+    transform: translateY(1px);
+
+}
+
+
+.red:active {
+    background-color: rgb(173, 115, 115);
+    transform: translateY(1px);
+
+
+
+}
+
+
+.title svg:active {
+    color: rgb(122, 91, 91);
+    transform: translateY(1px);
+
+
+}
+
+.tex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.tex div {
+    height: 50%;
+    width: 100%;
+    /* white-space: nowrap; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+
+/* Second  */
+
+
+.cardCart {
+    background-color: white;
+
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.cardCart div {
+
+    height: 70px;
+    width: 100%;
+}
+
+
+
+.imgTitle {
+    display: flex;
+    align-items: center;
+}
+
+.imgTitle div {
+    width: 130px;
+}
+
+.imgTitle p {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(41, 38, 35);
+}
+
+
+.imgTitle img {
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+
+
+.unityprice {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(41, 38, 35);
+
+}
+
+.quantity {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(41, 38, 35);
+
+
+}
+
+
+
+
+.countCart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.countCart button {
+    height: 30%;
+
+}
+
+.countCart input {
+    width: 20%;
+    height: 30%;
+    text-align: center;
+
+
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+    color: gray;
+    outline: none;
+    border: none;
+    border: rgb(197, 191, 191) 1px solid;
+
+    color: black;
+    background-color: rgb(248, 247, 247);
+
+}
+
+
+
+.totalprice {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(41, 38, 35);
+
+}
+
+.action {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(41, 38, 35);
+
+}
+
+.action:hover {
+    cursor: pointer;
+}
+
+
+.action:active {
+    color: rgb(122, 91, 91);
+    transform: translateY(1px);
+
+
+}

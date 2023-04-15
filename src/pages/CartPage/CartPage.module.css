@@ -1,0 +1,187 @@
+.container {
+
+    background-color: rgba(243, 243, 243, 0);
+    height: 900px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.box {
+
+
+    background-color: whitesmoke;
+    height: 800px;
+
+
+    width: 90%;
+    box-shadow: 5px 5px 25px 0.1px black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+
+}
+
+
+
+.page {
+    background-color: red;
+    height: 10%;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: #07a098;
+}
+
+.page button {
+    background-color: rgb(88, 161, 161);
+    position: absolute;
+    right: 0px;
+    border: none;
+    color: white;
+    padding: 0.5%;
+    top: 0px;
+    font-weight: bolder;
+
+}
+
+.page button:hover {
+    cursor: pointer;
+}
+
+.page button:active {
+    transform: translateY(1px);
+    background-color: rgb(116, 160, 160);
+
+}
+
+
+.list {
+    height: 90%;
+    width: 100%;
+
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+
+}
+
+.detailShop {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+    justify-content: space-around;
+    background-color: #829796;
+    color: whitesmoke;
+    font-size: 18px;
+}
+
+.detailShop li {
+
+    height: 100%;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardCart {
+
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardCart div {
+
+    height: 100%;
+    width: 100px;
+    background-color: yellow;
+
+}
+
+.Buy {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+    gap: 30px;
+}
+
+.Buy p {
+    color: rgb(41, 38, 38);
+}
+
+.Buy button {
+    background-color: #07a098;
+    border: none;
+    color: wheat;
+    padding: 10px;
+}
+
+.listCart {
+    width: 100%;
+    height: 50%;
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    padding: 10px;
+    overflow: auto;
+
+}
+
+.empy {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    color: gray;
+}
+
+.ButtonView {
+
+    background-color: rgb(6, 120, 124);
+    border: none;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+.ButtonView:hover {
+    cursor: pointer;
+}
+
+.ButtonView:active {
+    background-color: rgb(77, 123, 124);
+
+    transform: translateY(1px);
+}

@@ -1,0 +1,47 @@
+.container {
+    height: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    list-style: none;
+    background-color: azure;
+    height: 100%;
+    width: 100%;
+}
+
+.pagination li {
+    height: 100%;
+
+}
+
+.pagination button {
+
+
+    height: 100%;
+    width: 50px;
+    border: none;
+    font-weight: bolder;
+
+
+
+}
+
+.pagination button:hover {
+    cursor: pointer;
+}
+
+.active {
+
+    background-color: rgb(6, 120, 124);
+
+
+}

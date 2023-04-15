@@ -1,0 +1,120 @@
+ .container {
+
+     background-color: rgba(243, 243, 243, 0);
+     height: 1300px;
+
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+
+
+ }
+
+
+ .box {
+
+
+     background-color: rgb(255, 250, 250);
+     height: 1200px;
+
+
+     width: 90%;
+     box-shadow: 5px 5px 25px 0.1px black;
+
+     display: flex;
+     flex-direction: column;
+
+ }
+
+
+
+
+ .fullrow {
+
+     background-color: rgb(143, 241, 241);
+
+     height: 25%;
+
+     width: 100%;
+     display: flex;
+
+ }
+
+ .imgItem {
+     width: 50%;
+     height: 100%;
+     position: relative;
+
+
+
+ }
+
+ .imgItem button {
+     background-color: rgb(6, 120, 124);
+     z-index: 1;
+     position: absolute;
+     left: 2%;
+     bottom: 5%;
+     height: 50px;
+     width: 200px;
+     color: whitesmoke;
+     font-weight: bolder;
+     border: none;
+     border-radius: 10px;
+
+ }
+
+ .imgItem img {
+     width: 100%;
+     height: 100%;
+
+     z-index: 0;
+
+ }
+
+
+ .halfrow {
+
+
+
+     height: 75%;
+     width: 100%;
+     display: flex;
+
+ }
+
+
+
+ .Filter {
+
+     width: 20%;
+     height: 100%;
+     border-right: solid gainsboro 2px;
+     border-top: solid gainsboro 2px;
+
+ }
+
+ .Carditem {
+
+     width: 80%;
+     height: 100%;
+     border-top: solid gainsboro 2px;
+
+
+ }
+
+ .button:hover {
+     cursor: pointer;
+
+ }
+
+
+
+
+ .button:active {
+     background-color: rgb(77, 123, 124);
+
+     transform: translateY(1px);
+ }

@@ -1,0 +1,11 @@
+.container {
+
+    background-color: rgb(58, 56, 37);
+    height: 100px;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

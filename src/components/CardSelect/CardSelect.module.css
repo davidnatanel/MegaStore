@@ -1,0 +1,205 @@
+.container {
+
+    background-color: rgba(243, 243, 243, 0);
+    height: 700px;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.box {
+
+
+    background-color: rgb(255, 250, 250);
+    height: 600px;
+
+
+    width: 90%;
+    box-shadow: 5px 5px 25px 0.1px black;
+
+    display: flex;
+    position: relative;
+
+}
+
+.imgDetail {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Detail {
+
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-top: 50px;
+}
+
+.Descrition {
+
+
+
+    height: 50%;
+    width: 90%;
+
+    display: flex;
+    justify-items: self-start;
+    align-items: start;
+    justify-content: start;
+
+    flex-direction: column;
+
+    gap: 5%;
+    padding: 10px;
+
+}
+
+
+.text {}
+
+.text h3 {
+    color: rgb(48, 42, 42);
+    padding-bottom: 10px;
+}
+
+.text p {
+    color: rgb(56, 51, 51);
+
+}
+
+.detail {
+    display: flex;
+
+    justify-content: space-around;
+    width: 100%;
+
+    color: rgb(85, 74, 74);
+}
+
+
+.price {
+
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: white;
+}
+
+.price p {
+    background-color: rgb(180, 114, 114);
+    width: 20%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.imgList {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20%;
+    width: 90%;
+    gap: 10px;
+    background-color: rgb(126, 185, 185);
+
+
+
+}
+
+.imgList img {
+    height: 100px;
+    width: 100px;
+
+}
+
+.imgList img:hover {
+    cursor: pointer;
+
+}
+
+.index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.index img {
+    height: 200px;
+    height: 200px;
+}
+
+.buttonBack {
+
+    background-color: rgb(88, 161, 161);
+    position: absolute;
+    right: 0px;
+    border: none;
+    color: white;
+    padding: 0.5%;
+    top: 10px;
+    font-weight: bolder;
+    width: 100px;
+}
+
+.buttonBack:hover {
+    cursor: pointer;
+}
+
+.buttonBack:active {
+    transform: translateY(1px);
+    background-color: rgb(116, 160, 160);
+
+}
+
+.buttonAdd {
+    background-color: rgb(6, 120, 124);
+    border: none;
+    color: white;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+
+.buttonAdd:hover {
+    cursor: pointer;
+}
+
+.buttonAdd:active {
+    background-color: rgb(77, 123, 124);
+
+    transform: translateY(1px);
+}
+
+.buttonlist {
+    height: 10%;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.indexPoint {
+    border: 5px solid rgb(6, 120, 124);
+}

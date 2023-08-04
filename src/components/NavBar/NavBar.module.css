@@ -1,8 +1,7 @@
 .Container {
 
     background-color: #07a098;
-    height: 80px;
-    box-shadow: 0 0px 10px 0.1px black;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,8 +27,7 @@
 
 .button {
 
-    box-shadow: -2px -2px 2px 2px rgb(216, 204, 204);
-    height: 80px;
+    height: 50px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -40,7 +38,6 @@
 
 .button:hover {
 
-    box-shadow: -2px -2px 2px 1px rgb(248, 246, 246);
     cursor: pointer;
 
 
@@ -65,6 +62,7 @@
 
 
 .Options {
+    height: 50px;
     width: 20%;
     display: flex;
     justify-content: space-around;
@@ -98,8 +96,10 @@
 .input {
     border: none;
     border-radius: 2px;
-    height: 25%;
+    height: 40%;
     width: 30%;
+
+    background-color: rgb(178, 213, 234);
     animation: aparrence 1s alternate;
 
 }
